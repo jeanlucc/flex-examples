@@ -1,13 +1,5 @@
-.green {
-    background-color: #0f0;
-}
-
-.red {
-    background-color: #f00;
-}
-
-.blue {
-    background-color: #00f;
+.text-color1 {
+    color: #E8E5D6;
 }
 
 .color1 {
@@ -54,4 +46,25 @@ html, body {
 
 .big-text {
     font-size: 30px;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.menu-btn {
+    flex-shrink: 0;
+    margin: 8px;
+}
+
+.image {
+    background-image: url('./image.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 768px) {
+    .order {
+        order: -1;
+    }
 }
