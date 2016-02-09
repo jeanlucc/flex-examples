@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vertical alignment</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./flex.css">
+  </head>
+  <body>
+    <div class="container">
+      <h3>Vertical alignment</h3>
+
+      <div class="row">
+        <div class="col-lg-6 spaced">
+          <div class="color3">
+            <span class="big-text">Big element 1</span>
+            <span class="pull-right">not aligned</span>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="color3 flex flex-align-items-center flex-space-between">
+            <div class="big-text">Big element 2</div>
+            <span>aligned</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

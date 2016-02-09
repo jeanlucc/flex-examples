@@ -47,3 +47,11 @@ html, body {
 .status-input.fake {
     border: none;
 }
+
+.spaced {
+    margin-bottom: 8px;
+}
+
+.big-text {
+    font-size: 30px;
+}
