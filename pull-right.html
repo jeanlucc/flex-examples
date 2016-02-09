@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Avoid using pull-right</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./flex.css">
+  </head>
+  <body>
+    <div class="container">
+      <h3>Avoid using pull-right</h3>
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>With pull-right</td>
+            <td class="spaced-content">
+              <button class="btn btn-primary pull-right">Button 1</button>
+              <button class="btn btn-danger pull-right">Button 2</button>
+            </td>
+          </tr>
+          <tr>
+            <td>With flex like pull-right</td>
+            <td class="spaced-content flex flex-reverse">
+              <button class="btn btn-primary">Button 1</button>
+              <button class="btn btn-danger">Button 2</button>
+            </td>
+          </tr>
+          <tr>
+            <td>With flex preserve order</td>
+            <td class="spaced-content flex flex-end">
+              <button class="btn btn-primary">Button 1</button>
+              <button class="btn btn-danger">Button 2</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
+
