@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Align your buttons</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./flex.css">
+  </head>
+  <body>
+    <div class="container">
+      <h3>Put some space between your buttons</h3>
+
+      <div class="panel panel-default spaced">
+        <div class="panel-body">
+          <div class="flex flex-wrap flex-space-between">
+            <label class="status-input">
+              <input type="radio" name="status" />
+              <span>Todo</span>
+            </label>
+            <label class="status-input">
+              <input type="radio" name="status" />
+              <span>Blocked</span>
+            </label>
+            <label class="status-input">
+              <input type="radio" name="status" />
+              <span>In progress</span>
+            </label>
+            <label class="status-input">
+              <input type="radio" name="status" />
+              <span>Done</span>
+            </label>
+            <label class="status-input">
+              <input type="radio" name="status" />
+              <span>Not applicable</span>
+            </label>
+          </div>
+        </div>
+        <div class="panel-footer">
+          <div class="flex flex-space-between">
+            <button class="btn btn-default">Cancel</button>
+            <button class="btn btn-primary">Save</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel panel-default spaced">
+        <div class="panel-body">
+          <div class="flex flex-wrap flex-space-between">
+            <label class="status-input">
+              <input type="radio" name="status2" />
+              <span>Todo</span>
+            </label>
+            <label class="status-input">
+              <input type="radio" name="status2" />
+              <span>Blocked</span>
+            </label>
+            <label class="status-input">
+              <input type="radio" name="status2" />
+              <span>In progress</span>
+            </label>
+            <label class="status-input">
+              <input type="radio" name="status2" />
+              <span>Done</span>
+            </label>
+            <label class="status-input">
+              <input type="radio" name="status2" />
+              <span>Not applicable</span>
+            </label>
+            <div class="status-input fake hidden-md hidden-lg"></div>
+          </div>
+        </div>
+        <div class="panel-footer">
+          <div class="flex flex-space-between">
+            <button class="btn btn-default">Cancel</button>
+            <button class="btn btn-primary">Save</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
+
