@@ -1,0 +1,9 @@
+.psych {
+    background-image: url('../images/psych.gif');
+    background-size: cover;
+    background-position: center center;
+}
+
+.psych .panel {
+    opacity: 0.8;
+}
