@@ -44,6 +44,10 @@ html, body {
     font-size: 30px;
 }
 
+.big-height {
+    height: 300px;
+}
+
 .overflow-auto {
     overflow: auto;
 }
