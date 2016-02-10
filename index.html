@@ -1,26 +1,97 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Examples</title>
+    <meta charset="UTF-8">
+    <title>Flexbox la vie</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/flex.css">
+    <link rel="stylesheet" href="./css/code.css">
   </head>
   <body>
     <div class="container">
-      <h1>Index</h1>
-      <div class="panel panel-default">
+      <div class="flex flex-align-items-center flex-space-around">
+        <h1>Flexbox ⇒ ✨la vie✨</h1>
+      </div>
+
+      <div class="panel panel-default spaced">
         <div class="panel-heading">
-          <h3>Real life examples</h3>
+          <h4>Compatibility</h4>
         </div>
         <div class="panel-body">
-          <a href="examples/pull-right.html" class="btn btn-success">Pull-right</a></button>
-          <a href="examples/vertical-align.html" class="btn btn-success">vertical-align</a></button>
-          <a href="examples/button-alignment.html" class="btn btn-success">Button alignment</a></button>
-          <a href="examples/footer.html" class="btn btn-success">Footer</a></button>
-          <a href="examples/columns.html" class="btn btn-success">Columns</a></button>
+          <table class="table">
+            <thead>
+              <tr>
+                <th><span>Chrome</span></th>
+                <th><span>Safari</span></th>
+                <th><span>Firefox</span></th>
+                <th><span>Opera</span></th>
+                <th><span>IE/Edge</span></th>
+                <th><span>Android</span></th>
+                <th><span>iOS</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>21</td>
+                <td>6.1</td>
+                <td>12.1+</td>
+                <td>22+</td>
+                <td>11+</td>
+                <td>4.4+</td>
+                <td>7.1+</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
+
+      <div class="panel panel-default spaced">
+        <div class="panel-heading">
+          <h4>The parent</h4>
+        </div>
+        <div class="panel-body">
+          <ul>
+            <li><span class="css-property-name">display</span>: flex;</li>
+            <li><span class="css-property-name">flex-direction</span>: <span class="css-default-value">row;</span> | row-reverse | column | column-reverse;</li>
+            <li><span class="css-property-name">flex-wrap</span>: <span class="css-default-value">nowrap;</span> | wrap | wrap-reverse;</li>
+            <li><span class="css-property-name">justify-content</span>: <span class="css-default-value">flex-start;</span> | flex-end | center | space-between | space-around;</li>
+            <li><span class="css-property-name">align-items</span>: <span class="css-default-value">stretch;</span> | flex-start | flex-end | center | baseline;</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel panel-default spaced">
+        <div class="panel-heading">
+          <h4>The children</h4>
+        </div>
+        <div class="panel-body">
+          <ul>
+            <li><span class="css-property-name">flex-grow</span>: <span class="css-default-value">0;</span> | &lt;positive number&gt;;</li>
+            <li><span class="css-property-name">flex-shrink</span>: <span class="css-default-value">1;</span> | &lt;positive number&gt;;</li>
+            <li><span class="css-property-name">flex-basis</span>: <span class="css-default-value">auto;</span> | &lt;length&gt;;</li>
+            <li><span class="css-property-name">flex</span>: <span class="css-default-value">0 1 auto;</span> | &lt;flex-grow&gt; &lt;flex-shrink&gt; &lt;flex-basis&gt;;</li>
+            <li><span class="css-property-name">align-self</span>: <span class="css-default-value">auto;</span> | flex-start | flex-end | center | baseline | stretch;</li>
+            <li><span class="css-property-name">order</span>: &lt;integer&gt;;</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel panel-default spaced">
+        <div class="panel-heading">
+          <h4>Real life examples</h4>
+        </div>
+        <div class="panel-body">
+          <div class="flex flex-space-between">
+            <a href="examples/pull-right.html" class="btn btn-success">Pull-right</a></button>
+            <a href="examples/vertical-align.html" class="btn btn-success">vertical-align</a></button>
+            <a href="examples/button-alignment.html" class="btn btn-success">Button alignment</a></button>
+            <a href="examples/footer.html" class="btn btn-success">Footer</a></button>
+            <a href="examples/columns.html" class="btn btn-success">Columns</a></button>
+          </div>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>
