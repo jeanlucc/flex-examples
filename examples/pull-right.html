@@ -8,38 +8,33 @@
   </head>
   <body>
     <div class="container">
+
       <h3>Avoid using pull-right</h3>
-      <table class="table table-striped table-bordered">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>pull-right</td>
-            <td class="spaced-content">
-              <button class="btn btn-primary pull-right">Button 1</button>
-              <button class="btn btn-danger pull-right">Button 2</button>
-            </td>
-          </tr>
-          <tr>
-            <td>flex like pull-right</td>
-            <td class="spaced-content flex flex-reverse">
-              <button class="btn btn-primary">Button 1</button>
-              <button class="btn btn-danger">Button 2</button>
-            </td>
-          </tr>
-          <tr>
-            <td>flex preserve order</td>
-            <td class="spaced-content flex flex-end">
-              <button class="btn btn-primary">Button 1</button>
-              <button class="btn btn-danger">Button 2</button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="flex flex-align-items-center">
+                <div class="flex-expand">Sed vestibulum nisl et condimentum porta</div>
+                <div class="btn square">btn1</div>
+                <div class="btn square">btn2</div>
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="flex flex-align-items-center">
+                <div class="flex-expand">Donec in odio non dui tincidunt condimentum. Praesent dignissim ultrices mauris non tincidunt. Donec.</div>
+                <div class="btn square">btn1</div>
+                <div class="btn square">btn2</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
     </div>
   </body>
 </html>

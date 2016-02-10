@@ -1,18 +1,28 @@
 body {
-    color: #09374b;
-    background-color: #f7f7f9;
+    color: #f5f5e2;
+    background-color: #101412;
 }
 
 .color1 {
-    background-color: #E8E5D6;
+    background-color: #5CBFEB;
+    color: #101412;
+    padding: 8px;
 }
 
 .color2 {
-    background-color: #B7A980;
+    background-color: #101412;
+    color: #5CBFEB;
+    padding: 8px;
 }
 
 .color3 {
-    background-color: #C6D2E3;
+    background-color: #0A82C2;
+    padding: 8px;
+}
+
+.color4 {
+    background-color: #31455E;
+    padding: 8px;
 }
 
 html, body {
@@ -23,22 +33,26 @@ html, body {
     height: 100%;
 }
 
+.min-full-height {
+    min-height: 100%;
+}
+
 .spaced-content > * {
     margin-left: 5px;
 }
 
 .status-input {
-    border: solid 1px #ccc;
-    border-radius: 4px;
-    height: 30px;
-    line-height: 30px;
+    background-color: #3A7895;
+    border: solid 1px #2e6da4;
+    height: 40px;
+    line-height: 40px;
     padding: 0 8px;
     margin: 8px;
     width: 150px;
 }
 
 .status-input.fake {
-    border: none;
+    opacity: 0;
 }
 
 .spaced {
@@ -61,9 +75,11 @@ html, body {
     overflow: auto;
 }
 
-.menu-btn {
+.btn {
+    background-color: #3A7895;
     flex-shrink: 0;
-    margin: 8px;
+    margin: 4px;
+    border-radius: 0;
 }
 
 .table td, .table th {
@@ -88,4 +104,38 @@ a {
 
 a:hover {
     text-decoration: none;
+}
+
+.panel-body {
+    background-color: #31455E;
+}
+
+.panel-default > .panel-heading {
+    background-color: #0B4060;
+    color: inherit;
+    border-color: #000;
+}
+
+.panel-default {
+    border-color: #000;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.pre {
+    white-space: pre;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0;
 }
