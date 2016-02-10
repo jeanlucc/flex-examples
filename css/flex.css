@@ -59,12 +59,24 @@
     align-self: flex-end;
 }
 
+.flex-align-center {
+    align-self: center;
+}
+
+.flex-base {
+    flex-basis: 40%;
+}
+
 .flex-expand {
     flex-grow: 1;
 }
 
 .flex-no-shrink {
     flex-shrink: 0;
+}
+
+.flex-shrink {
+    flex-shrink: 2;
 }
 
 @media (max-width: 768px) {

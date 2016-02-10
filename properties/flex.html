@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/flex.css">
+    <link rel="stylesheet" href="../css/code.css">
+    <link rel="stylesheet" href="../css/psych.css">
+  </head>
+  <body>
+    <div class="container">
+
+      <h3>Flex</h3>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-default spaced">
+            <div class="panel-heading">
+              <h4>Flex grow 0 (default)</h4>
+            </div>
+            <div class="panel-body">
+              <div class="small-height flex">
+                <div class="color1" >🐋</div>
+                <div class="color2 flex-base">🐋</div>
+                <div class="color3">🐋</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="panel panel-default spaced">
+            <div class="panel-heading">
+              <h4>Each div grows and align-self</h4>
+            </div>
+            <div class="panel-body">
+              <div class="small-height flex">
+                <div class="color1 flex-expand flex-align-start">🐋</div>
+                <div class="color2 flex-expand">🐋</div>
+                <div class="color3 flex-expand flex-align-center">🐋</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="panel panel-default spaced">
+            <div class="panel-heading">
+              <h4>Middle expands</h4>
+            </div>
+            <div class="panel-body">
+              <div class="small-height flex">
+                <div class="color1">🐋</div>
+                <div class="color2 flex-expand">🐋</div>
+                <div class="color3">🐋</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="panel panel-default spaced">
+            <div class="panel-heading">
+              <h4>Flex shrink 1 (default)</h4>
+            </div>
+            <div class="panel-body">
+              <div class="flex">
+                <div class="color1">🐋Sed fruatur sane hoc solacio atque hanc insignem ignominiam🐋</div>
+                <div class="color2">🐋Sed fruatur sane hoc solacio atque hanc insignem ignominiam🐋</div>
+                <div class="color3">🐋Sed fruatur sane hoc solacio atque hanc insignem ignominiam🐋</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="panel panel-default spaced">
+            <div class="panel-heading">
+              <h4>Middle doesn't shrink</h4>
+            </div>
+            <div class="panel-body">
+              <div class="flex">
+                <div class="color1">🐋Sed fruatur sane hoc solacio atque hanc insignem ignominiam🐋</div>
+                <div class="color2 flex-no-shrink">🐋Sed fruatur sane hoc🐋</div>
+                <div class="color3">🐋Sed fruatur sane hoc solacio atque hanc insignem ignominiam🐋</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="panel panel-default spaced">
+            <div class="panel-heading">
+              <h4>Middle shrinks less than the others</h4>
+            </div>
+            <div class="panel-body">
+              <div class="flex">
+                <div class="color1 flex-shrink">🐋Sed fruatur sane hoc solacio atque hanc insignem ignominiam🐋</div>
+                <div class="color2">🐋Sed fruatur sane hoc solacio atque hanc insignem ignominiam🐋</div>
+                <div class="color3 flex-shrink">🐋Sed fruatur sane hoc solacio atque hanc insignem ignominiam🐋</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

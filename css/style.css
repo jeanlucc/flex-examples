@@ -53,6 +53,10 @@ html, body {
     height: 300px;
 }
 
+.small-height {
+    height: 80px;
+}
+
 .overflow-auto {
     overflow: auto;
 }
